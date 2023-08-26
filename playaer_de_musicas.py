@@ -2,7 +2,7 @@
 Autor: Eduardo Machado
 Início: 25/08/2023
 Lista de músicas com menu de várias bandas.
-dessenvolvido na linguagem Python
+desenvolvido na linguagem Python
 '''
 
 #importando a biblioteca pygame para tocar a múica que se seseja ouvir.
