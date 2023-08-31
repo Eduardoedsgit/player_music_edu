@@ -8,12 +8,12 @@ desenvolvido na linguagem Python
 #itertools(Ferramentas iterativas) cycle(ciclo)
 from itertools import cycle
 
-#importando a biblioteca pygame para tocar a múica que se seseja ouvir.
-#a biblioteca time importada é para controlar tempo de mensagems
+#importando a biblioteca pygame para tocar a música que se deseja ouvir.
+#a biblioteca time importada é para controlar tempo de mensagens usando o comando sleep(adormecer)
 import pygame, time
 
 #laço de repetição para continuar o programa rodando
-#no caso cycle vai repetir o ciclo uma vez infinitamente, laço infinito for
+#no caso cycle vai repetir o ciclo uma vez infinitamente, laço infinito for. range(faixa)
 for i in cycle(range(1)):
 
     #escrevendo a lista de menu na tela
