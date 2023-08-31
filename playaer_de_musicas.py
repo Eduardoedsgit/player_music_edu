@@ -4,14 +4,17 @@ Início: 25/08/2023
 Lista de músicas com menu de várias bandas.
 desenvolvido na linguagem Python
 '''
+#importando a biblioteca itertools para gerar um looping for infinito através do comando cycle da biblioteca
+#itertools(Ferramentas iterativas) cycle(ciclo)
+from itertools import cycle
 
 #importando a biblioteca pygame para tocar a múica que se seseja ouvir.
 #a biblioteca time importada é para controlar tempo de mensagems
 import pygame, time
 
 #laço de repetição para continuar o programa rodando
-
-for i in range(100):
+#no caso cycle vai repetir o ciclo uma vez infinitamente, laço infinito for
+for i in cycle(range(1)):
 
     #escrevendo a lista de menu na tela
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'
